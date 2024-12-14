@@ -7,3 +7,10 @@ Depois execute o codigo ou, caso esteja no VSCode, clique em F5
 
 -Instruções caso queira mudar o codigo que será traduzido-
 Va para a linha 206 onde esta o "def main():" e mude o codigo da linha 209 ha 219.
+
+Componentes do Grupo:
+Dyelle Hemylle Nunes de Almeida
+Ingrid Gabrielly Camara Lira
+Kleber Lucas Lopes Alves
+Tallyson Emanoel Roques Izidio
+Vitor Eduardo de Carvalho
