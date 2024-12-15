@@ -34,7 +34,7 @@ Para clonar o repositório e executar o projeto localmente, siga estas etapas:
 ## 🔎 Estrutura do Projeto
 **Biblioteca AST**: Utilizada para análise sintática e léxica do código Python.
 
-**Exemplo de código suportado:**
+**Exemplo de código em Python:**
 
 ```bash
 for i in range(5):
@@ -42,3 +42,24 @@ for i in range(5):
         print("Menor que 3")
     else:
         print("Maior ou igual a 3")
+```
+
+**Geração de código para linguagem C:**
+
+```bash
+#include <stdbool.h>
+#include <stdio.h>
+#include <stdlib.h>
+#include <string.h>
+
+int main() {
+for (int i = 0; i < 5; i++) {
+    if ((i < 3)) {
+        print(Menor que 3);
+} else {
+        print(Maior ou igual a 3);
+    }
+}
+    return 0;
+}
+```
