@@ -1,14 +1,44 @@
-# Trabalho-de-Compiladores-Transpilador-
-Transpilador da linguagem Python para a linguagem C 
+# Transpilador
 
-Para rodar o código é necessário ter o Python instalado. Além do python é necessário instalar também o typing através do terminal (que pode ser aberto pressionando o comando Ctrl + J) do Visual Studio Code, usando o comando  "pip install typing". Em seguida, execute o código ou, caso esteja no VSCode, pressione o botão F5.
+O repositório apresenta um transpilador desenvolvido para converter código escrito em Python para a linguagem C. Ele utiliza a biblioteca ast (Abstract Syntax Tree) do Python para análise e geração do código-fonte equivalente em C.
 
-Instruções: 
-Caso deseje mudar o código que será traduzido role o código até encontrar a linha 206 onde está o comando  "def main():" e mude o código da linha 209 a 219 para o que desejar transpilar.
+##  Componentes do grupo
 
-Componentes do Grupo:
-Dyelle Hemylle Nunes de Almeida
-Ingrid Gabrielly Camara Lira
-Kleber Lucas Lopes Alves
-Tallyson Emanoel Roques Izidio
-Vitor Eduardo de Carvalho
+- Dyelle Hemylle Nunes de Almeida
+- Ingrid Gabrielly Camara Lira
+- Kléber Lucas Lopes Alves
+- Tállyson Emanoel Roques Izidio
+- Vitor Eduardo de Carvalho
+
+## 🚀 Como Usar
+
+Para clonar o repositório e executar o projeto localmente, siga estas etapas:
+
+1. **Instale as dependências:** certifique-se de que o Python está instalado no sistema. Em seguida, instale o módulo typing:
+
+
+    ```bash
+    pip install typing
+    ```
+
+2. **Configure o código a ser transpilado:** abra o arquivo principal e localize o método main na linha 206:
+
+    ```bash
+    def main():
+    ```
+**OBS:** Substitua o código entre as linhas 209 e 219 pelo código Python que deseja transpilar.
+
+3. **Execute o transpilador:** No terminal do Visual Studio Code (ou outro ambiente), execute o script. O transpilador irá gerar um código equivalente em C.
+
+
+## 🔎 Estrutura do Projeto
+**Biblioteca AST**: Utilizada para análise sintática e léxica do código Python.
+
+**Exemplo de código suportado:**
+
+```bash
+for i in range(5):
+    if i < 3:
+        print("Menor que 3")
+    else:
+        print("Maior ou igual a 3")
